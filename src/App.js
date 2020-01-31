@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./global.css";
 import "./App.css";
 import "./aside.css";
+import "./main.css";
 
 function App() {
   const [github_username, setGithubUserName] = useState("");
@@ -75,6 +76,70 @@ function App() {
           </button>
         </form>
       </aside>
+
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars2.githubusercontent.com/u/4295523?s=400&v=4"
+                alt="Fabio Teixeira"
+              />
+              <div className="user-info">
+                <strong>Fabio Teixeira</strong>
+                <span>JavaScript, React, Python, Django</span>
+              </div>
+            </header>
+
+            <p>
+              Student of Software Engineer in University of Brasilia and
+              JavaScript lover.
+            </p>
+
+            <a href="https://github.com/fabio1079/">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars2.githubusercontent.com/u/4295523?s=400&v=4"
+                alt="Fabio Teixeira"
+              />
+              <div className="user-info">
+                <strong>Fabio Teixeira</strong>
+                <span>JavaScript, React, Python, Django</span>
+              </div>
+            </header>
+
+            <p>
+              Student of Software Engineer in University of Brasilia and
+              JavaScript lover.
+            </p>
+
+            <a href="https://github.com/fabio1079/">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars2.githubusercontent.com/u/4295523?s=400&v=4"
+                alt="Fabio Teixeira"
+              />
+              <div className="user-info">
+                <strong>Fabio Teixeira</strong>
+                <span>JavaScript, React, Python, Django</span>
+              </div>
+            </header>
+
+            <p>
+              Student of Software Engineer in University of Brasilia and
+              JavaScript lover.
+            </p>
+
+            <a href="https://github.com/fabio1079/">Acessar perfil no Github</a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
